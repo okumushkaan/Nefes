@@ -1,0 +1,32 @@
+name: Telegram Hatırlatma
+
+on:
+  schedule:
+    # Her saat :05'te çalışır (GitHub tam saat başlarında yoğunluk yaşadığı
+    # için gecikmeleri azaltmak amacıyla :00 yerine :05 seçildi). Script,
+    # gerçek Türkiye saatine bakıp o ana denk gelen plan maddesi varsa mesaj
+    # atar; script UTC/Türkiye dönüşümünü kendi içinde yapar.
+    - cron: '5 * * * *'
+  workflow_dispatch:
+    inputs:
+      test_mode:
+        description: 'true seçilirse tarih/saat eşleşmesi beklemeden sabit bir test mesajı gönderir'
+        required: false
+        default: 'false'
+
+jobs:
+  send-reminder:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Hatırlatma gönder
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          TEST_MODE: ${{ github.event.inputs.test_mode }}
+        run: python .github/scripts/send_reminder.py

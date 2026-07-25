@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1">
+<title>IBS ve Sinir Sistemi Programı</title>
+
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#1e6269">
+
+<!-- iOS PWA destegi -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="IBS Program">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="icon" href="icons/favicon.png">
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div id="app-root">
+
+  <header class="app-header">
+    <div class="app-header-title" id="header-title">IBS Program</div>
+    <button class="icon-btn" id="btn-settings" aria-label="Ayarlar">⚙️</button>
+  </header>
+
+  <main id="view" class="view"></main>
+
+  <nav class="bottom-nav" id="bottom-nav">
+    <button class="nav-btn" data-route="today" aria-label="Bugün">
+      <span class="nav-icon">🌤️</span><span class="nav-label">Bugün</span>
+    </button>
+    <button class="nav-btn" data-route="calendar" aria-label="Takvim">
+      <span class="nav-icon">📅</span><span class="nav-label">Takvim</span>
+    </button>
+    <button class="nav-btn" data-route="symptoms" aria-label="Belirti">
+      <span class="nav-icon">📈</span><span class="nav-label">Belirti</span>
+    </button>
+    <button class="nav-btn" data-route="weekly" aria-label="Haftalık">
+      <span class="nav-icon">🗓️</span><span class="nav-label">Haftalık</span>
+    </button>
+    <button class="nav-btn" data-route="more" aria-label="Diğer">
+      <span class="nav-icon">⋯</span><span class="nav-label">Diğer</span>
+    </button>
+  </nav>
+
+</div>
+
+<div id="toast" class="toast" aria-live="polite"></div>
+
+<script src="js/data.js"></script>
+<script src="js/db.js"></script>
+<script src="js/utils.js"></script>
+<script src="js/render.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

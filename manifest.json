@@ -1,0 +1,32 @@
+{
+  "name": "IBS ve Sinir Sistemi Programı",
+  "short_name": "IBS Program",
+  "description": "4 haftalık IBS ve sinir sistemi düzenleme programı — saatlik uygulama takibi, belirti günlüğü ve haftalık değerlendirme.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#1e6269",
+  "theme_color": "#1e6269",
+  "lang": "tr",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
