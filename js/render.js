@@ -15,7 +15,7 @@ function itemRowHtml(item, rec, isNext) {
      </button>`
   ).join('');
   return `
-    <div class="item-card cat-${item.category} ${isNext ? 'is-next' : ''}" data-hour="${item.hour}">
+    <div class="item-card cat-${item.category} ${isNext ? 'is-next' : ''}" data-hour="${item.hour}" ${item.breathingId ? `data-breathing-id="${item.breathingId}"` : ''}>
       <div class="item-head" data-toggle="1">
         <div class="item-hour">${formatHour(item.hour)}</div>
         <div class="item-main">
@@ -29,6 +29,7 @@ function itemRowHtml(item, rec, isNext) {
       </div>
       <div class="item-body">
         <div class="item-detail">${escapeHtml(item.detail)}</div>
+        ${item.breathingId ? `<button class="btn" data-start-breathing="1" style="margin-bottom:10px">▶ Nefes Egzersizini Başlat</button>` : ''}
         <div class="status-row">${statusBtns}</div>
         <textarea class="note-input" data-note="1" placeholder="Not / belirti ekle...">${escapeHtml(note)}</textarea>
       </div>
@@ -60,6 +61,12 @@ function wireItemsEvents(listEl) {
       card.querySelectorAll('.status-btn').forEach((b) => b.classList.remove('active'));
       if (newStatus) statusBtn.classList.add('active');
       DB.setDayItem(date, hour, { status: newStatus });
+      return;
+    }
+    const startBtn = e.target.closest('[data-start-breathing]');
+    if (startBtn) {
+      const card = startBtn.closest('.item-card');
+      navigate('breathe/' + card.dataset.breathingId + '/' + date + '/' + card.dataset.hour);
       return;
     }
   });
@@ -388,6 +395,247 @@ async function renderWeekly(container, weekParam) {
   });
 }
 
+// ================= Nefes Egzersizleri (liste) =================
+function exerciseTotalSec(ex) {
+  return ex.segments.reduce((s, seg) => s + seg.durationSec, 0);
+}
+
+function renderBreathingList(container) {
+  const cards = PLAN_DATA.breathingExercises.map((ex) => {
+    const mins = Math.round(exerciseTotalSec(ex) / 60);
+    return `
+      <div class="more-item breathe-list-item cat-${ex.category}" data-breathing-id="${ex.id}">
+        <span class="more-icon">${CATEGORY_ICON[ex.category] || '🌬️'}</span>
+        <div class="more-title-wrap">
+          <span>${escapeHtml(ex.title)}</span>
+          <span class="more-sub">${ex.category} · ${mins} dk</span>
+        </div>
+        <span class="more-arrow">›</span>
+      </div>`;
+  }).join('');
+
+  container.innerHTML = `
+    <div class="page-heading">Nefes Egzersizleri</div>
+    <div class="page-subtext">Takvimden bağımsız, istediğin egzersizi seçip hemen başlayabilirsin.</div>
+    <div class="more-list">${cards}</div>
+  `;
+  container.querySelectorAll('[data-breathing-id]').forEach((el) => {
+    el.addEventListener('click', () => navigate('breathe/' + el.dataset.breathingId));
+  });
+}
+
+// ================= Nefes Egzersizi Oynatıcı =================
+const RING_R = 80;
+const RING_CIRC = 2 * Math.PI * RING_R;
+
+let breatheState = null;
+
+function teardownBreathing() {
+  if (breatheState && breatheState.raf) cancelAnimationFrame(breatheState.raf);
+  breatheState = null;
+}
+
+function formatMMSS(totalSeconds) {
+  const s = Math.max(0, Math.ceil(totalSeconds));
+  const m = Math.floor(s / 60);
+  const r = s % 60;
+  return m + ':' + pad2(r);
+}
+
+function playCue(kind) {
+  try {
+    const ctx = new (window.AudioContext || window.webkitAudioContext)();
+    const o = ctx.createOscillator();
+    const g = ctx.createGain();
+    o.type = 'sine';
+    o.frequency.value = kind === 'in' ? 520 : (kind === 'out' ? 360 : 440);
+    g.gain.setValueAtTime(0.0001, ctx.currentTime);
+    g.gain.exponentialRampToValueAtTime(0.15, ctx.currentTime + 0.04);
+    g.gain.exponentialRampToValueAtTime(0.0001, ctx.currentTime + 0.35);
+    o.connect(g).connect(ctx.destination);
+    o.start();
+    o.stop(ctx.currentTime + 0.4);
+  } catch (e) { /* ses desteklenmiyorsa sessizce geç */ }
+}
+
+function locateSegmentAndPhase(exercise, elapsedSec) {
+  let acc = 0;
+  for (let si = 0; si < exercise.segments.length; si++) {
+    const seg = exercise.segments[si];
+    if (elapsedSec < acc + seg.durationSec) {
+      const segOffset = elapsedSec - acc;
+      if (seg.type === 'free') {
+        return { segIndex: si, seg, segOffset, phaseIndex: -1, phase: null, phaseOffset: segOffset, cycleNum: 0 };
+      }
+      const cycleLen = seg.phases.reduce((s, p) => s + p.seconds, 0);
+      const cycleNum = Math.floor(segOffset / cycleLen);
+      let posInCycle = segOffset % cycleLen;
+      let pAcc = 0;
+      for (let pi = 0; pi < seg.phases.length; pi++) {
+        const ph = seg.phases[pi];
+        if (posInCycle < pAcc + ph.seconds) {
+          return { segIndex: si, seg, segOffset, phaseIndex: pi, phase: ph, phaseOffset: posInCycle - pAcc, cycleNum };
+        }
+        pAcc += ph.seconds;
+      }
+      const lastIdx = seg.phases.length - 1;
+      return { segIndex: si, seg, segOffset, phaseIndex: lastIdx, phase: seg.phases[lastIdx], phaseOffset: seg.phases[lastIdx].seconds, cycleNum };
+    }
+    acc += seg.durationSec;
+  }
+  return null;
+}
+
+function renderBreatheFrame(els, exercise, totalSec, elapsedSec) {
+  const loc = locateSegmentAndPhase(exercise, elapsedSec);
+  if (!loc) return false;
+
+  els.total.textContent = 'Toplamda kalan: ' + formatMMSS(totalSec - elapsedSec);
+
+  let progress, label, ringClass, phaseSecondsText, phaseKey;
+  if (loc.seg.type === 'free') {
+    progress = loc.segOffset / loc.seg.durationSec;
+    label = loc.seg.label;
+    ringClass = 'phase-free';
+    phaseSecondsText = formatMMSS(loc.seg.durationSec - loc.segOffset) + ' kaldı';
+    phaseKey = 's' + loc.segIndex;
+  } else {
+    progress = loc.phaseOffset / loc.phase.seconds;
+    label = loc.phase.name;
+    ringClass = loc.phaseIndex === 0 ? 'phase-in' : (loc.phaseIndex === loc.seg.phases.length - 1 ? 'phase-out' : 'phase-free');
+    phaseSecondsText = Math.ceil(loc.phase.seconds - loc.phaseOffset) + ' sn';
+    phaseKey = 's' + loc.segIndex + 'c' + loc.cycleNum + 'p' + loc.phaseIndex;
+  }
+
+  const offset = RING_CIRC * (1 - Math.min(1, Math.max(0, progress)));
+  els.ring.setAttribute('stroke-dashoffset', String(offset));
+  els.ring.setAttribute('class', 'breathe-ring-progress ' + ringClass);
+  els.label.textContent = label;
+  els.seconds.textContent = phaseSecondsText;
+
+  if (phaseKey !== els.lastPhaseKey) {
+    els.lastPhaseKey = phaseKey;
+    playCue(ringClass === 'phase-in' ? 'in' : (ringClass === 'phase-out' ? 'out' : 'free'));
+  }
+  return true;
+}
+
+function renderBreatheDone(container, exercise, ctx) {
+  container.innerHTML = `
+    <div class="breathe-done">
+      <div class="emoji">🎉</div>
+      <div class="breathe-done-title">${escapeHtml(exercise.title)} tamamlandı</div>
+      <div class="breathe-done-sub">${ctx.date ? 'Bugünkü durumun "Tamamlandı" olarak işaretlendi.' : 'İstediğin zaman tekrar deneyimleyebilirsin.'}</div>
+      <button class="btn" id="breathe-done-close">Kapat</button>
+    </div>
+  `;
+  document.getElementById('breathe-done-close').addEventListener('click', () => history.back());
+}
+
+async function renderBreathe(container, id, date, hourStr) {
+  const exercise = PLAN_DATA.breathingExercises.find((e) => e.id === id);
+  if (!exercise) {
+    container.innerHTML = `<div class="card empty-state">Egzersiz bulunamadı.</div>`;
+    return;
+  }
+  const hour = hourStr !== undefined ? Number(hourStr) : null;
+  const totalSec = exerciseTotalSec(exercise);
+
+  container.innerHTML = `
+    <div class="breathe-screen">
+      <div class="breathe-close-row"><button class="breathe-close-btn" id="breathe-close">✕</button></div>
+      <div class="breathe-title">${escapeHtml(exercise.title)}</div>
+      <div class="breathe-segment-label" id="breathe-lead">Hazırlan…</div>
+      <div class="breathe-ring-wrap">
+        <svg viewBox="0 0 200 200">
+          <circle class="breathe-ring-bg" cx="100" cy="100" r="${RING_R}"></circle>
+          <circle class="breathe-ring-progress phase-free" id="breathe-ring" cx="100" cy="100" r="${RING_R}"
+            stroke-dasharray="${RING_CIRC}" stroke-dashoffset="${RING_CIRC}"></circle>
+        </svg>
+        <div class="breathe-center">
+          <div class="breathe-phase-label" id="breathe-phase-label">Hazırlan</div>
+          <div class="breathe-phase-seconds" id="breathe-phase-seconds"></div>
+        </div>
+      </div>
+      <div class="breathe-total-remaining" id="breathe-total">Toplam süre: ${formatMMSS(totalSec)}</div>
+      <div class="breathe-controls">
+        <button class="btn secondary" id="breathe-pause">Duraklat</button>
+      </div>
+    </div>
+  `;
+
+  document.getElementById('breathe-close').addEventListener('click', () => {
+    teardownBreathing();
+    history.back();
+  });
+
+  const els = {
+    ring: document.getElementById('breathe-ring'),
+    label: document.getElementById('breathe-phase-label'),
+    seconds: document.getElementById('breathe-phase-seconds'),
+    total: document.getElementById('breathe-total'),
+    lastPhaseKey: null
+  };
+
+  const LEAD_MS = 3000;
+  const state = {
+    raf: null,
+    paused: false,
+    pausedMs: 0,
+    pauseStartedAt: 0,
+    startTs: performance.now() + LEAD_MS
+  };
+  breatheState = state;
+
+  const pauseBtn = document.getElementById('breathe-pause');
+  pauseBtn.addEventListener('click', () => {
+    if (!state.paused) {
+      state.paused = true;
+      state.pauseStartedAt = performance.now();
+      pauseBtn.textContent = 'Devam Et';
+    } else {
+      state.pausedMs += performance.now() - state.pauseStartedAt;
+      state.paused = false;
+      pauseBtn.textContent = 'Duraklat';
+    }
+  });
+
+  function finish() {
+    teardownBreathing();
+    if (date && hour !== null) {
+      DB.setDayItem(date, hour, { status: 'tamamlandi' });
+      showToast('Egzersiz tamamlandı ve işaretlendi');
+    }
+    renderBreatheDone(container, exercise, { date });
+  }
+
+  function tick(now) {
+    if (breatheState !== state) return; // ekran değişti, döngü sonlandı
+    if (state.paused) {
+      state.raf = requestAnimationFrame(tick);
+      return;
+    }
+    if (now < state.startTs) {
+      const leftSec = Math.ceil((state.startTs - now) / 1000);
+      document.getElementById('breathe-lead').textContent = 'Hazırlan… ' + leftSec;
+      state.raf = requestAnimationFrame(tick);
+      return;
+    }
+    const leadEl = document.getElementById('breathe-lead');
+    if (leadEl) leadEl.textContent = '';
+
+    const elapsedSec = (now - state.startTs - state.pausedMs) / 1000;
+    if (elapsedSec >= totalSec) {
+      finish();
+      return;
+    }
+    renderBreatheFrame(els, exercise, totalSec, elapsedSec);
+    state.raf = requestAnimationFrame(tick);
+  }
+
+  state.raf = requestAnimationFrame(tick);
+}
+
 // ================= Atak Protokolleri =================
 function renderProtocols(container) {
   const cards = PLAN_DATA.protocols.map((p) => `
@@ -429,6 +677,7 @@ function renderMore(container) {
   container.innerHTML = `
     <div class="page-heading">Diğer</div>
     <div class="more-list">
+      <div class="more-item" data-nav="breathing"><span class="more-icon">🌬️</span>Nefes Egzersizleri<span class="more-arrow">›</span></div>
       <div class="more-item" data-nav="protocols"><span class="more-icon">🚨</span>Atak Protokolleri<span class="more-arrow">›</span></div>
       <div class="more-item" data-nav="guide"><span class="more-icon">📖</span>Rehber<span class="more-arrow">›</span></div>
       <div class="more-item" data-nav="settings"><span class="more-icon">⚙️</span>Ayarlar ve Yedekleme<span class="more-arrow">›</span></div>

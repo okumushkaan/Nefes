@@ -1,5 +1,5 @@
 // Basit cache-first service worker: tum statik dosyalari onbellege alir, offline calismayi saglar.
-const CACHE_VERSION = 'ibs-pwa-v2';
+const CACHE_VERSION = 'ibs-pwa-v3';
 const CACHE_FILES = [
   './',
   './index.html',

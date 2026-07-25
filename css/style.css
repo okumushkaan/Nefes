@@ -387,3 +387,41 @@ input[type="range"]::-moz-range-thumb {
 .week-range { font-size: 13px; color: var(--text-muted); margin: -6px 2px 14px; }
 
 input[type="file"] { display: none; }
+
+/* ================= Nefes egzersizi oynatıcı ================= */
+.breathe-list-item { border-left: 5px solid var(--cat-color, var(--accent)); }
+.breathe-list-item .more-icon { font-size: 22px; }
+.breathe-list-item .more-sub { font-size: 12.5px; color: var(--text-muted); font-weight: 600; margin-top: 2px; }
+.breathe-list-item .more-title-wrap { display: flex; flex-direction: column; }
+
+.breathe-screen { display: flex; flex-direction: column; align-items: center; }
+.breathe-close-row { display: flex; justify-content: flex-end; width: 100%; margin-bottom: 4px; }
+.breathe-close-btn {
+  background: var(--bg-elevated); border: 1.5px solid var(--border); color: var(--text);
+  width: 40px; height: 40px; border-radius: 10px; font-size: 17px; font-weight: 700;
+}
+.breathe-title { font-size: 18px; font-weight: 800; text-align: center; margin: 2px 0 2px; }
+.breathe-segment-label { font-size: 13px; color: var(--text-muted); text-align: center; margin-bottom: 14px; min-height: 18px; padding: 0 10px; }
+
+.breathe-ring-wrap { position: relative; width: 260px; height: 260px; margin: 6px auto 18px; max-width: 78vw; max-height: 78vw; }
+.breathe-ring-wrap svg { width: 100%; height: 100%; transform: rotate(-90deg); display: block; }
+.breathe-ring-bg { fill: none; stroke: var(--border); stroke-width: 14; }
+.breathe-ring-progress { fill: none; stroke: var(--accent); stroke-width: 14; stroke-linecap: round; }
+.breathe-ring-progress.phase-in { stroke: var(--color-nefes); }
+.breathe-ring-progress.phase-out { stroke: var(--color-vagus); }
+.breathe-ring-progress.phase-free { stroke: var(--accent); }
+
+.breathe-center {
+  position: absolute; inset: 0; display: flex; flex-direction: column;
+  align-items: center; justify-content: center; text-align: center; padding: 0 24px;
+}
+.breathe-phase-label { font-size: 23px; font-weight: 800; line-height: 1.25; }
+.breathe-phase-seconds { font-size: 15px; color: var(--text-muted); margin-top: 6px; font-weight: 700; }
+
+.breathe-total-remaining { font-size: 14px; color: var(--text-muted); margin-bottom: 22px; font-weight: 700; }
+.breathe-controls { display: flex; gap: 10px; width: 100%; max-width: 320px; }
+
+.breathe-done { text-align: center; padding: 50px 20px; }
+.breathe-done .emoji { font-size: 46px; margin-bottom: 12px; }
+.breathe-done .breathe-done-title { font-size: 18px; font-weight: 800; margin-bottom: 6px; }
+.breathe-done .breathe-done-sub { font-size: 13.5px; color: var(--text-muted); margin-bottom: 22px; }

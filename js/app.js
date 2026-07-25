@@ -8,7 +8,9 @@ const ROUTE_TITLES = {
   protocols: 'Atak Protokolleri',
   guide: 'Rehber',
   more: 'Diğer',
-  settings: 'Ayarlar'
+  settings: 'Ayarlar',
+  breathing: 'Nefes Egzersizleri',
+  breathe: 'Nefes Egzersizi'
 };
 
 function navigate(path) {
@@ -25,7 +27,7 @@ function updateHeaderTitle(top) {
 }
 
 function updateNav(top) {
-  const navGroupMap = { protocols: 'more', guide: 'more', settings: 'more' };
+  const navGroupMap = { protocols: 'more', guide: 'more', settings: 'more', breathing: 'more', breathe: 'more' };
   const active = navGroupMap[top] || top;
   document.querySelectorAll('.nav-btn').forEach((btn) => {
     btn.classList.toggle('active', btn.dataset.route === active);
@@ -33,6 +35,8 @@ function updateNav(top) {
 }
 
 function route() {
+  teardownBreathing();
+
   const hash = location.hash.replace(/^#\/?/, '');
   const parts = hash.split('/').filter(Boolean);
   const top = parts[0] || 'today';
@@ -49,6 +53,8 @@ function route() {
   else if (top === 'guide') renderGuide(view);
   else if (top === 'more') renderMore(view);
   else if (top === 'settings') renderSettings(view);
+  else if (top === 'breathing') renderBreathingList(view);
+  else if (top === 'breathe') renderBreathe(view, parts[1], parts[2], parts[3]);
   else renderToday(view);
 
   view.scrollTop = 0;
