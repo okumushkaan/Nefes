@@ -4,15 +4,15 @@
 const PLAN_DATA = {
   "meta": {
     "title": "4 Haftalık IBS ve Sinir Sistemi Düzenleme Programı — Saatlik Uygulama Planı",
-    "subtitle": "Başlangıç: 27.07.2026 Pazartesi | Varsayılan düzen: 07:00 uyanış, 23:00 uyku. Saatleri kendi yaşamına göre aynı sırayı koruyarak kaydırabilirsin.",
-    "startDate": "2026-07-27",
-    "endDate": "2026-08-23"
+    "subtitle": "Başlangıç: 26.07.2026 Pazar | Varsayılan düzen: 07:00 uyanış, 23:00 uyku. Saatleri kendi yaşamına göre aynı sırayı koruyarak kaydırabilirsin.",
+    "startDate": "2026-07-26",
+    "endDate": "2026-08-22"
   },
   "days": [
     {
       "week": 1,
       "day": 1,
-      "date": "2026-07-27",
+      "date": "2026-07-26",
       "items": [
         {
           "hour": 7,
@@ -113,7 +113,7 @@ const PLAN_DATA = {
     {
       "week": 1,
       "day": 2,
-      "date": "2026-07-28",
+      "date": "2026-07-27",
       "items": [
         {
           "hour": 7,
@@ -214,7 +214,7 @@ const PLAN_DATA = {
     {
       "week": 1,
       "day": 3,
-      "date": "2026-07-29",
+      "date": "2026-07-28",
       "items": [
         {
           "hour": 7,
@@ -315,7 +315,7 @@ const PLAN_DATA = {
     {
       "week": 1,
       "day": 4,
-      "date": "2026-07-30",
+      "date": "2026-07-29",
       "items": [
         {
           "hour": 7,
@@ -416,7 +416,7 @@ const PLAN_DATA = {
     {
       "week": 1,
       "day": 5,
-      "date": "2026-07-31",
+      "date": "2026-07-30",
       "items": [
         {
           "hour": 7,
@@ -517,7 +517,7 @@ const PLAN_DATA = {
     {
       "week": 1,
       "day": 6,
-      "date": "2026-08-01",
+      "date": "2026-07-31",
       "items": [
         {
           "hour": 7,
@@ -618,7 +618,7 @@ const PLAN_DATA = {
     {
       "week": 1,
       "day": 7,
-      "date": "2026-08-02",
+      "date": "2026-08-01",
       "items": [
         {
           "hour": 7,
@@ -719,7 +719,7 @@ const PLAN_DATA = {
     {
       "week": 2,
       "day": 8,
-      "date": "2026-08-03",
+      "date": "2026-08-02",
       "items": [
         {
           "hour": 7,
@@ -820,7 +820,7 @@ const PLAN_DATA = {
     {
       "week": 2,
       "day": 9,
-      "date": "2026-08-04",
+      "date": "2026-08-03",
       "items": [
         {
           "hour": 7,
@@ -921,7 +921,7 @@ const PLAN_DATA = {
     {
       "week": 2,
       "day": 10,
-      "date": "2026-08-05",
+      "date": "2026-08-04",
       "items": [
         {
           "hour": 7,
@@ -1022,7 +1022,7 @@ const PLAN_DATA = {
     {
       "week": 2,
       "day": 11,
-      "date": "2026-08-06",
+      "date": "2026-08-05",
       "items": [
         {
           "hour": 7,
@@ -1123,7 +1123,7 @@ const PLAN_DATA = {
     {
       "week": 2,
       "day": 12,
-      "date": "2026-08-07",
+      "date": "2026-08-06",
       "items": [
         {
           "hour": 7,
@@ -1224,7 +1224,7 @@ const PLAN_DATA = {
     {
       "week": 2,
       "day": 13,
-      "date": "2026-08-08",
+      "date": "2026-08-07",
       "items": [
         {
           "hour": 7,
@@ -1325,7 +1325,7 @@ const PLAN_DATA = {
     {
       "week": 2,
       "day": 14,
-      "date": "2026-08-09",
+      "date": "2026-08-08",
       "items": [
         {
           "hour": 7,
@@ -1426,7 +1426,7 @@ const PLAN_DATA = {
     {
       "week": 3,
       "day": 15,
-      "date": "2026-08-10",
+      "date": "2026-08-09",
       "items": [
         {
           "hour": 7,
@@ -1526,7 +1526,7 @@ const PLAN_DATA = {
     {
       "week": 3,
       "day": 16,
-      "date": "2026-08-11",
+      "date": "2026-08-10",
       "items": [
         {
           "hour": 7,
@@ -1626,7 +1626,7 @@ const PLAN_DATA = {
     {
       "week": 3,
       "day": 17,
-      "date": "2026-08-12",
+      "date": "2026-08-11",
       "items": [
         {
           "hour": 7,
@@ -1726,7 +1726,7 @@ const PLAN_DATA = {
     {
       "week": 3,
       "day": 18,
-      "date": "2026-08-13",
+      "date": "2026-08-12",
       "items": [
         {
           "hour": 7,
@@ -1826,7 +1826,7 @@ const PLAN_DATA = {
     {
       "week": 3,
       "day": 19,
-      "date": "2026-08-14",
+      "date": "2026-08-13",
       "items": [
         {
           "hour": 7,
@@ -1926,7 +1926,7 @@ const PLAN_DATA = {
     {
       "week": 3,
       "day": 20,
-      "date": "2026-08-15",
+      "date": "2026-08-14",
       "items": [
         {
           "hour": 7,
@@ -2026,7 +2026,7 @@ const PLAN_DATA = {
     {
       "week": 3,
       "day": 21,
-      "date": "2026-08-16",
+      "date": "2026-08-15",
       "items": [
         {
           "hour": 7,
@@ -2126,7 +2126,7 @@ const PLAN_DATA = {
     {
       "week": 4,
       "day": 22,
-      "date": "2026-08-17",
+      "date": "2026-08-16",
       "items": [
         {
           "hour": 7,
@@ -2227,7 +2227,7 @@ const PLAN_DATA = {
     {
       "week": 4,
       "day": 23,
-      "date": "2026-08-18",
+      "date": "2026-08-17",
       "items": [
         {
           "hour": 7,
@@ -2328,7 +2328,7 @@ const PLAN_DATA = {
     {
       "week": 4,
       "day": 24,
-      "date": "2026-08-19",
+      "date": "2026-08-18",
       "items": [
         {
           "hour": 7,
@@ -2429,7 +2429,7 @@ const PLAN_DATA = {
     {
       "week": 4,
       "day": 25,
-      "date": "2026-08-20",
+      "date": "2026-08-19",
       "items": [
         {
           "hour": 7,
@@ -2530,7 +2530,7 @@ const PLAN_DATA = {
     {
       "week": 4,
       "day": 26,
-      "date": "2026-08-21",
+      "date": "2026-08-20",
       "items": [
         {
           "hour": 7,
@@ -2631,7 +2631,7 @@ const PLAN_DATA = {
     {
       "week": 4,
       "day": 27,
-      "date": "2026-08-22",
+      "date": "2026-08-21",
       "items": [
         {
           "hour": 7,
@@ -2732,7 +2732,7 @@ const PLAN_DATA = {
     {
       "week": 4,
       "day": 28,
-      "date": "2026-08-23",
+      "date": "2026-08-22",
       "items": [
         {
           "hour": 7,
@@ -2913,19 +2913,19 @@ const PLAN_DATA = {
   "weekMeta": [
     {
       "week": 1,
-      "dateRange": "27.07.2026 – 02.08.2026"
+      "dateRange": "26.07.2026 – 01.08.2026"
     },
     {
       "week": 2,
-      "dateRange": "03.08.2026 – 09.08.2026"
+      "dateRange": "02.08.2026 – 08.08.2026"
     },
     {
       "week": 3,
-      "dateRange": "10.08.2026 – 16.08.2026"
+      "dateRange": "09.08.2026 – 15.08.2026"
     },
     {
       "week": 4,
-      "dateRange": "17.08.2026 – 23.08.2026"
+      "dateRange": "16.08.2026 – 22.08.2026"
     }
   ],
   "sundayQuestions": [

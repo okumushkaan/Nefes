@@ -1,6 +1,6 @@
 [
  {
-  "date": "2026-07-27",
+  "date": "2026-07-26",
   "hour": 7,
   "category": "Nefes",
   "title": "Sabah sinir sistemi rutini",
@@ -8,7 +8,7 @@
   "detail": "• 5 dk nefesi değiştirmeden gözlemle; 10 dk burundan 4 sn al / 6 sn ver; 5 dk ev içinde yavaş, yalnızca burundan nefesle yürü. Omuzları kaldırma, nefesi zorla derinleştirme."
  },
  {
-  "date": "2026-07-27",
+  "date": "2026-07-26",
   "hour": 8,
   "category": "Beslenme",
   "title": "Kahvaltıyı sakin yeme",
@@ -16,7 +16,7 @@
   "detail": "• Telefon ve televizyon olmadan ye. Küçük lokmalar al, her lokmayı yaklaşık 15–20 kez çiğne. Yemek boyunca omuz, çene ve karnı gevşek tut."
  },
  {
-  "date": "2026-07-27",
+  "date": "2026-07-26",
   "hour": 10,
   "category": "Farkındalık",
   "title": "30 saniyelik beden kontrolü",
@@ -24,7 +24,7 @@
   "detail": "• Çene sıkılı mı, omuzlar kalkık mı, karın içeri çekilmiş mi? Üçünü de yumuşat. Nefesi değiştirmeden devam et."
  },
  {
-  "date": "2026-07-27",
+  "date": "2026-07-26",
   "hour": 12,
   "category": "Beslenme",
   "title": "Öğle yemeğini sakin yeme",
@@ -32,7 +32,7 @@
   "detail": "• Hızlı yeme, gazlı içecek, pipet ve sakız kullanma. Aşırı büyük porsiyon yerine orta porsiyon tercih et."
  },
  {
-  "date": "2026-07-27",
+  "date": "2026-07-26",
   "hour": 13,
   "category": "Hareket",
   "title": "Öğle sonrası hafif yürüyüş",
@@ -40,7 +40,7 @@
   "detail": "• Yemekten sonra 10 dk rahat tempoda yürü. Konuşabilecek tempoda kal; mümkünse burundan nefes al."
  },
  {
-  "date": "2026-07-27",
+  "date": "2026-07-26",
   "hour": 15,
   "category": "Nefes",
   "title": "Stres boşaltma — fizyolojik iç çekiş",
@@ -48,7 +48,7 @@
   "detail": "• Toplam 3–5 tekrar: burundan normal bir nefes al, üstüne kısa ikinci bir nefes ekle, ardından uzun ve rahatça ver. Baş dönmesi olursa bırak. 5 dakika boyunca sürekli tekrarlama."
  },
  {
-  "date": "2026-07-27",
+  "date": "2026-07-26",
   "hour": 16,
   "category": "Farkındalık",
   "title": "30 saniyelik beden kontrolü",
@@ -56,7 +56,7 @@
   "detail": "• Karın kasılıysa bilinçli şekilde bırak. Nefesi büyütmeye çalışma."
  },
  {
-  "date": "2026-07-27",
+  "date": "2026-07-26",
   "hour": 18,
   "category": "Beslenme",
   "title": "Akşam yemeğini sakin yeme",
@@ -64,7 +64,7 @@
   "detail": "• Orta porsiyon ye; çok yağlı, çok baharatlı ve kişisel olarak tetiklediğini bildiğin yiyecekleri sınırlı tut."
  },
  {
-  "date": "2026-07-27",
+  "date": "2026-07-26",
   "hour": 19,
   "category": "Hareket",
   "title": "Akşam yemeği sonrası yürüyüş",
@@ -72,7 +72,7 @@
   "detail": "• Yemekten sonra en az 20 dk uzanma. 10 dk hafif yürüyüş yap."
  },
  {
-  "date": "2026-07-27",
+  "date": "2026-07-26",
   "hour": 20,
   "category": "Nefes",
   "title": "Akşam koherent nefes",
@@ -80,7 +80,7 @@
   "detail": "• 15 dk boyunca 5 sn al / 5 sn ver. Nefes rahat, sessiz ve burundan olsun. Hava açlığı oluşursa süreyi 10 dk’ya indir."
  },
  {
-  "date": "2026-07-27",
+  "date": "2026-07-26",
   "hour": 21,
   "category": "Hareket",
   "title": "Hafif kuvvet / mobilite",
@@ -88,6 +88,110 @@
   "detail": "• Ağrı oluşturmayan hafif program: sandalyeye otur-kalk, duvar şınavı, direnç bandı çekişi ve nazik esneme. Nefesi tutma. Şikâyet artarsa yalnızca 10 dk yürüyüş yap."
  },
  {
+  "date": "2026-07-26",
+  "hour": 22,
+  "category": "Gevşeme",
+  "title": "Karın gevşetme + günlük kayıt",
+  "duration": 7,
+  "detail": "• 5 dk karın kaslarını tamamen serbest bırak; ardından 2 dk günlük belirti puanlarını kaydet. Karnı zorla dışarı itme."
+ },
+ {
+  "date": "2026-07-26",
+  "hour": 23,
+  "category": "Uyku",
+  "title": "Uykuya geçiş",
+  "duration": 0,
+  "detail": "• Hedef: benzer saatte uyumak. Son 30 dk parlak ekranı azalt. Gece nefes egzersizini zorlayarak uzatma."
+ },
+ {
+  "date": "2026-07-27",
+  "hour": 7,
+  "category": "Nefes",
+  "title": "Sabah sinir sistemi rutini",
+  "duration": 20,
+  "detail": "• 5 dk nefesi değiştirmeden gözlemle; 10 dk burundan 4 sn al / 6 sn ver; 5 dk ev içinde yavaş, yalnızca burundan nefesle yürü. Omuzları kaldırma, nefesi zorla derinleştirme."
+ },
+ {
+  "date": "2026-07-27",
+  "hour": 8,
+  "category": "Beslenme",
+  "title": "Kahvaltıyı sakin yeme",
+  "duration": 20,
+  "detail": "• Telefon ve televizyon olmadan ye. Küçük lokmalar al, her lokmayı yaklaşık 15–20 kez çiğne. Yemek boyunca omuz, çene ve karnı gevşek tut."
+ },
+ {
+  "date": "2026-07-27",
+  "hour": 10,
+  "category": "Farkındalık",
+  "title": "30 saniyelik beden kontrolü",
+  "duration": 1,
+  "detail": "• Çene sıkılı mı, omuzlar kalkık mı, karın içeri çekilmiş mi? Üçünü de yumuşat. Nefesi değiştirmeden devam et."
+ },
+ {
+  "date": "2026-07-27",
+  "hour": 12,
+  "category": "Beslenme",
+  "title": "Öğle yemeğini sakin yeme",
+  "duration": 25,
+  "detail": "• Hızlı yeme, gazlı içecek, pipet ve sakız kullanma. Aşırı büyük porsiyon yerine orta porsiyon tercih et."
+ },
+ {
+  "date": "2026-07-27",
+  "hour": 13,
+  "category": "Hareket",
+  "title": "Öğle sonrası hafif yürüyüş",
+  "duration": 10,
+  "detail": "• Yemekten sonra 10 dk rahat tempoda yürü. Konuşabilecek tempoda kal; mümkünse burundan nefes al."
+ },
+ {
+  "date": "2026-07-27",
+  "hour": 15,
+  "category": "Nefes",
+  "title": "Stres boşaltma — fizyolojik iç çekiş",
+  "duration": 3,
+  "detail": "• Toplam 3–5 tekrar: burundan normal bir nefes al, üstüne kısa ikinci bir nefes ekle, ardından uzun ve rahatça ver. Baş dönmesi olursa bırak. 5 dakika boyunca sürekli tekrarlama."
+ },
+ {
+  "date": "2026-07-27",
+  "hour": 16,
+  "category": "Farkındalık",
+  "title": "30 saniyelik beden kontrolü",
+  "duration": 1,
+  "detail": "• Karın kasılıysa bilinçli şekilde bırak. Nefesi büyütmeye çalışma."
+ },
+ {
+  "date": "2026-07-27",
+  "hour": 18,
+  "category": "Beslenme",
+  "title": "Akşam yemeğini sakin yeme",
+  "duration": 25,
+  "detail": "• Orta porsiyon ye; çok yağlı, çok baharatlı ve kişisel olarak tetiklediğini bildiğin yiyecekleri sınırlı tut."
+ },
+ {
+  "date": "2026-07-27",
+  "hour": 19,
+  "category": "Hareket",
+  "title": "Akşam yemeği sonrası yürüyüş",
+  "duration": 10,
+  "detail": "• Yemekten sonra en az 20 dk uzanma. 10 dk hafif yürüyüş yap."
+ },
+ {
+  "date": "2026-07-27",
+  "hour": 20,
+  "category": "Nefes",
+  "title": "Akşam koherent nefes",
+  "duration": 15,
+  "detail": "• 15 dk boyunca 5 sn al / 5 sn ver. Nefes rahat, sessiz ve burundan olsun. Hava açlığı oluşursa süreyi 10 dk’ya indir."
+ },
+ {
+  "date": "2026-07-27",
+  "hour": 21,
+  "category": "Hareket",
+  "title": "Rahatlatıcı mobilite",
+  "duration": 10,
+  "detail": "• Bel, kalça ve göğüs kafesine yönelik nazik hareketler yap. Keskin ağrıya girme, nefesi tutma."
+ },
+ {
   "date": "2026-07-27",
   "hour": 22,
   "category": "Gevşeme",
@@ -187,9 +291,9 @@
   "date": "2026-07-28",
   "hour": 21,
   "category": "Hareket",
-  "title": "Rahatlatıcı mobilite",
-  "duration": 10,
-  "detail": "• Bel, kalça ve göğüs kafesine yönelik nazik hareketler yap. Keskin ağrıya girme, nefesi tutma."
+  "title": "Hafif kuvvet / mobilite",
+  "duration": 20,
+  "detail": "• Ağrı oluşturmayan hafif program: sandalyeye otur-kalk, duvar şınavı, direnç bandı çekişi ve nazik esneme. Nefesi tutma. Şikâyet artarsa yalnızca 10 dk yürüyüş yap."
  },
  {
   "date": "2026-07-28",
@@ -291,9 +395,9 @@
   "date": "2026-07-29",
   "hour": 21,
   "category": "Hareket",
-  "title": "Hafif kuvvet / mobilite",
-  "duration": 20,
-  "detail": "• Ağrı oluşturmayan hafif program: sandalyeye otur-kalk, duvar şınavı, direnç bandı çekişi ve nazik esneme. Nefesi tutma. Şikâyet artarsa yalnızca 10 dk yürüyüş yap."
+  "title": "Rahatlatıcı mobilite",
+  "duration": 10,
+  "detail": "• Bel, kalça ve göğüs kafesine yönelik nazik hareketler yap. Keskin ağrıya girme, nefesi tutma."
  },
  {
   "date": "2026-07-29",
@@ -395,9 +499,9 @@
   "date": "2026-07-30",
   "hour": 21,
   "category": "Hareket",
-  "title": "Rahatlatıcı mobilite",
-  "duration": 10,
-  "detail": "• Bel, kalça ve göğüs kafesine yönelik nazik hareketler yap. Keskin ağrıya girme, nefesi tutma."
+  "title": "Hafif kuvvet / mobilite",
+  "duration": 20,
+  "detail": "• Ağrı oluşturmayan hafif program: sandalyeye otur-kalk, duvar şınavı, direnç bandı çekişi ve nazik esneme. Nefesi tutma. Şikâyet artarsa yalnızca 10 dk yürüyüş yap."
  },
  {
   "date": "2026-07-30",
@@ -499,9 +603,9 @@
   "date": "2026-07-31",
   "hour": 21,
   "category": "Hareket",
-  "title": "Hafif kuvvet / mobilite",
-  "duration": 20,
-  "detail": "• Ağrı oluşturmayan hafif program: sandalyeye otur-kalk, duvar şınavı, direnç bandı çekişi ve nazik esneme. Nefesi tutma. Şikâyet artarsa yalnızca 10 dk yürüyüş yap."
+  "title": "Rahatlatıcı mobilite",
+  "duration": 10,
+  "detail": "• Bel, kalça ve göğüs kafesine yönelik nazik hareketler yap. Keskin ağrıya girme, nefesi tutma."
  },
  {
   "date": "2026-07-31",
@@ -707,9 +811,9 @@
   "date": "2026-08-02",
   "hour": 21,
   "category": "Hareket",
-  "title": "Rahatlatıcı mobilite",
-  "duration": 10,
-  "detail": "• Bel, kalça ve göğüs kafesine yönelik nazik hareketler yap. Keskin ağrıya girme, nefesi tutma."
+  "title": "Hafif kuvvet / mobilite",
+  "duration": 20,
+  "detail": "• Ağrı oluşturmayan hafif program: sandalyeye otur-kalk, duvar şınavı, direnç bandı çekişi ve nazik esneme. Nefesi tutma. Şikâyet artarsa yalnızca 10 dk yürüyüş yap."
  },
  {
   "date": "2026-08-02",
@@ -811,9 +915,9 @@
   "date": "2026-08-03",
   "hour": 21,
   "category": "Hareket",
-  "title": "Hafif kuvvet / mobilite",
-  "duration": 20,
-  "detail": "• Ağrı oluşturmayan hafif program: sandalyeye otur-kalk, duvar şınavı, direnç bandı çekişi ve nazik esneme. Nefesi tutma. Şikâyet artarsa yalnızca 10 dk yürüyüş yap."
+  "title": "Rahatlatıcı mobilite",
+  "duration": 10,
+  "detail": "• Bel, kalça ve göğüs kafesine yönelik nazik hareketler yap. Keskin ağrıya girme, nefesi tutma."
  },
  {
   "date": "2026-08-03",
@@ -915,9 +1019,9 @@
   "date": "2026-08-04",
   "hour": 21,
   "category": "Hareket",
-  "title": "Rahatlatıcı mobilite",
-  "duration": 10,
-  "detail": "• Bel, kalça ve göğüs kafesine yönelik nazik hareketler yap. Keskin ağrıya girme, nefesi tutma."
+  "title": "Hafif kuvvet / mobilite",
+  "duration": 20,
+  "detail": "• Ağrı oluşturmayan hafif program: sandalyeye otur-kalk, duvar şınavı, direnç bandı çekişi ve nazik esneme. Nefesi tutma. Şikâyet artarsa yalnızca 10 dk yürüyüş yap."
  },
  {
   "date": "2026-08-04",
@@ -1019,9 +1123,9 @@
   "date": "2026-08-05",
   "hour": 21,
   "category": "Hareket",
-  "title": "Hafif kuvvet / mobilite",
-  "duration": 20,
-  "detail": "• Ağrı oluşturmayan hafif program: sandalyeye otur-kalk, duvar şınavı, direnç bandı çekişi ve nazik esneme. Nefesi tutma. Şikâyet artarsa yalnızca 10 dk yürüyüş yap."
+  "title": "Rahatlatıcı mobilite",
+  "duration": 10,
+  "detail": "• Bel, kalça ve göğüs kafesine yönelik nazik hareketler yap. Keskin ağrıya girme, nefesi tutma."
  },
  {
   "date": "2026-08-05",
@@ -1123,115 +1227,115 @@
   "date": "2026-08-06",
   "hour": 21,
   "category": "Hareket",
-  "title": "Rahatlatıcı mobilite",
-  "duration": 10,
-  "detail": "• Bel, kalça ve göğüs kafesine yönelik nazik hareketler yap. Keskin ağrıya girme, nefesi tutma."
- },
- {
-  "date": "2026-08-06",
-  "hour": 22,
-  "category": "Gevşeme",
-  "title": "Karın gevşetme + günlük kayıt",
-  "duration": 7,
-  "detail": "• 5 dk karın kaslarını tamamen serbest bırak; ardından 2 dk günlük belirti puanlarını kaydet. Karnı zorla dışarı itme."
- },
- {
-  "date": "2026-08-06",
-  "hour": 23,
-  "category": "Uyku",
-  "title": "Uykuya geçiş",
-  "duration": 0,
-  "detail": "• Hedef: benzer saatte uyumak. Son 30 dk parlak ekranı azalt. Gece nefes egzersizini zorlayarak uzatma."
- },
- {
-  "date": "2026-08-07",
-  "hour": 7,
-  "category": "Nefes",
-  "title": "Sabah sinir sistemi rutini",
-  "duration": 20,
-  "detail": "• 5 dk nefesi değiştirmeden gözlemle; 10 dk burundan 4 sn al / 6 sn ver; 5 dk ev içinde yavaş, yalnızca burundan nefesle yürü. Omuzları kaldırma, nefesi zorla derinleştirme."
- },
- {
-  "date": "2026-08-07",
-  "hour": 8,
-  "category": "Beslenme",
-  "title": "Kahvaltıyı sakin yeme",
-  "duration": 20,
-  "detail": "• Telefon ve televizyon olmadan ye. Küçük lokmalar al, her lokmayı yaklaşık 15–20 kez çiğne. Yemek boyunca omuz, çene ve karnı gevşek tut."
- },
- {
-  "date": "2026-08-07",
-  "hour": 10,
-  "category": "Farkındalık",
-  "title": "30 saniyelik beden kontrolü",
-  "duration": 1,
-  "detail": "• Çene sıkılı mı, omuzlar kalkık mı, karın içeri çekilmiş mi? Üçünü de yumuşat. Nefesi değiştirmeden devam et."
- },
- {
-  "date": "2026-08-07",
-  "hour": 12,
-  "category": "Beslenme",
-  "title": "Öğle yemeğini sakin yeme",
-  "duration": 25,
-  "detail": "• Hızlı yeme, gazlı içecek, pipet ve sakız kullanma. Aşırı büyük porsiyon yerine orta porsiyon tercih et."
- },
- {
-  "date": "2026-08-07",
-  "hour": 13,
-  "category": "Hareket",
-  "title": "Öğle sonrası hafif yürüyüş",
-  "duration": 10,
-  "detail": "• Yemekten sonra 10 dk rahat tempoda yürü. Konuşabilecek tempoda kal; mümkünse burundan nefes al."
- },
- {
-  "date": "2026-08-07",
-  "hour": 15,
-  "category": "Nefes",
-  "title": "Stres boşaltma — fizyolojik iç çekiş",
-  "duration": 3,
-  "detail": "• Toplam 3–5 tekrar: burundan normal bir nefes al, üstüne kısa ikinci bir nefes ekle, ardından uzun ve rahatça ver. Baş dönmesi olursa bırak. 5 dakika boyunca sürekli tekrarlama."
- },
- {
-  "date": "2026-08-07",
-  "hour": 16,
-  "category": "Farkındalık",
-  "title": "30 saniyelik beden kontrolü",
-  "duration": 1,
-  "detail": "• Karın kasılıysa bilinçli şekilde bırak. Nefesi büyütmeye çalışma."
- },
- {
-  "date": "2026-08-07",
-  "hour": 18,
-  "category": "Beslenme",
-  "title": "Akşam yemeğini sakin yeme",
-  "duration": 25,
-  "detail": "• Orta porsiyon ye; çok yağlı, çok baharatlı ve kişisel olarak tetiklediğini bildiğin yiyecekleri sınırlı tut."
- },
- {
-  "date": "2026-08-07",
-  "hour": 19,
-  "category": "Hareket",
-  "title": "Akşam yemeği sonrası yürüyüş",
-  "duration": 10,
-  "detail": "• Yemekten sonra en az 20 dk uzanma. 10 dk hafif yürüyüş yap."
- },
- {
-  "date": "2026-08-07",
-  "hour": 20,
-  "category": "Nefes",
-  "title": "Akşam koherent nefes",
-  "duration": 15,
-  "detail": "• 15 dk boyunca 5 sn al / 5 sn ver. Nefes rahat, sessiz ve burundan olsun. Hava açlığı oluşursa süreyi 10 dk’ya indir."
- },
- {
-  "date": "2026-08-07",
-  "hour": 21,
-  "category": "Hareket",
   "title": "Hafif kuvvet / mobilite",
   "duration": 20,
   "detail": "• Ağrı oluşturmayan hafif program: sandalyeye otur-kalk, duvar şınavı, direnç bandı çekişi ve nazik esneme. Nefesi tutma. Şikâyet artarsa yalnızca 10 dk yürüyüş yap."
  },
  {
+  "date": "2026-08-06",
+  "hour": 22,
+  "category": "Gevşeme",
+  "title": "Karın gevşetme + günlük kayıt",
+  "duration": 7,
+  "detail": "• 5 dk karın kaslarını tamamen serbest bırak; ardından 2 dk günlük belirti puanlarını kaydet. Karnı zorla dışarı itme."
+ },
+ {
+  "date": "2026-08-06",
+  "hour": 23,
+  "category": "Uyku",
+  "title": "Uykuya geçiş",
+  "duration": 0,
+  "detail": "• Hedef: benzer saatte uyumak. Son 30 dk parlak ekranı azalt. Gece nefes egzersizini zorlayarak uzatma."
+ },
+ {
+  "date": "2026-08-07",
+  "hour": 7,
+  "category": "Nefes",
+  "title": "Sabah sinir sistemi rutini",
+  "duration": 20,
+  "detail": "• 5 dk nefesi değiştirmeden gözlemle; 10 dk burundan 4 sn al / 6 sn ver; 5 dk ev içinde yavaş, yalnızca burundan nefesle yürü. Omuzları kaldırma, nefesi zorla derinleştirme."
+ },
+ {
+  "date": "2026-08-07",
+  "hour": 8,
+  "category": "Beslenme",
+  "title": "Kahvaltıyı sakin yeme",
+  "duration": 20,
+  "detail": "• Telefon ve televizyon olmadan ye. Küçük lokmalar al, her lokmayı yaklaşık 15–20 kez çiğne. Yemek boyunca omuz, çene ve karnı gevşek tut."
+ },
+ {
+  "date": "2026-08-07",
+  "hour": 10,
+  "category": "Farkındalık",
+  "title": "30 saniyelik beden kontrolü",
+  "duration": 1,
+  "detail": "• Çene sıkılı mı, omuzlar kalkık mı, karın içeri çekilmiş mi? Üçünü de yumuşat. Nefesi değiştirmeden devam et."
+ },
+ {
+  "date": "2026-08-07",
+  "hour": 12,
+  "category": "Beslenme",
+  "title": "Öğle yemeğini sakin yeme",
+  "duration": 25,
+  "detail": "• Hızlı yeme, gazlı içecek, pipet ve sakız kullanma. Aşırı büyük porsiyon yerine orta porsiyon tercih et."
+ },
+ {
+  "date": "2026-08-07",
+  "hour": 13,
+  "category": "Hareket",
+  "title": "Öğle sonrası hafif yürüyüş",
+  "duration": 10,
+  "detail": "• Yemekten sonra 10 dk rahat tempoda yürü. Konuşabilecek tempoda kal; mümkünse burundan nefes al."
+ },
+ {
+  "date": "2026-08-07",
+  "hour": 15,
+  "category": "Nefes",
+  "title": "Stres boşaltma — fizyolojik iç çekiş",
+  "duration": 3,
+  "detail": "• Toplam 3–5 tekrar: burundan normal bir nefes al, üstüne kısa ikinci bir nefes ekle, ardından uzun ve rahatça ver. Baş dönmesi olursa bırak. 5 dakika boyunca sürekli tekrarlama."
+ },
+ {
+  "date": "2026-08-07",
+  "hour": 16,
+  "category": "Farkındalık",
+  "title": "30 saniyelik beden kontrolü",
+  "duration": 1,
+  "detail": "• Karın kasılıysa bilinçli şekilde bırak. Nefesi büyütmeye çalışma."
+ },
+ {
+  "date": "2026-08-07",
+  "hour": 18,
+  "category": "Beslenme",
+  "title": "Akşam yemeğini sakin yeme",
+  "duration": 25,
+  "detail": "• Orta porsiyon ye; çok yağlı, çok baharatlı ve kişisel olarak tetiklediğini bildiğin yiyecekleri sınırlı tut."
+ },
+ {
+  "date": "2026-08-07",
+  "hour": 19,
+  "category": "Hareket",
+  "title": "Akşam yemeği sonrası yürüyüş",
+  "duration": 10,
+  "detail": "• Yemekten sonra en az 20 dk uzanma. 10 dk hafif yürüyüş yap."
+ },
+ {
+  "date": "2026-08-07",
+  "hour": 20,
+  "category": "Nefes",
+  "title": "Akşam koherent nefes",
+  "duration": 15,
+  "detail": "• 15 dk boyunca 5 sn al / 5 sn ver. Nefes rahat, sessiz ve burundan olsun. Hava açlığı oluşursa süreyi 10 dk’ya indir."
+ },
+ {
+  "date": "2026-08-07",
+  "hour": 21,
+  "category": "Hareket",
+  "title": "Rahatlatıcı mobilite",
+  "duration": 10,
+  "detail": "• Bel, kalça ve göğüs kafesine yönelik nazik hareketler yap. Keskin ağrıya girme, nefesi tutma."
+ },
+ {
   "date": "2026-08-07",
   "hour": 22,
   "category": "Gevşeme",
@@ -1355,9 +1459,9 @@
   "date": "2026-08-09",
   "hour": 7,
   "category": "Nefes",
-  "title": "Sabah sinir sistemi rutini",
+  "title": "Sabah diyafram + koherent nefes",
   "duration": 20,
-  "detail": "• 5 dk nefesi değiştirmeden gözlemle; 10 dk burundan 4 sn al / 6 sn ver; 5 dk ev içinde yavaş, yalnızca burundan nefesle yürü. Omuzları kaldırma, nefesi zorla derinleştirme."
+  "detail": "• 10 dk 4 sn al / 6 sn ver; ardından 10 dk 5 sn al / 5 sn ver. Nefes sessiz, yumuşak ve burundan olsun."
  },
  {
   "date": "2026-08-09",
@@ -1394,10 +1498,10 @@
  {
   "date": "2026-08-09",
   "hour": 15,
-  "category": "Nefes",
-  "title": "Stres boşaltma — fizyolojik iç çekiş",
-  "duration": 3,
-  "detail": "• Toplam 3–5 tekrar: burundan normal bir nefes al, üstüne kısa ikinci bir nefes ekle, ardından uzun ve rahatça ver. Baş dönmesi olursa bırak. 5 dakika boyunca sürekli tekrarlama."
+  "category": "Farkındalık",
+  "title": "Beden kontrolü + 1 dk yavaş nefes",
+  "duration": 2,
+  "detail": "• Çene, omuz ve karnı gevşet; ardından 1 dk boyunca yaklaşık 4 sn al / 6 sn ver."
  },
  {
   "date": "2026-08-09",
@@ -1427,17 +1531,17 @@
   "date": "2026-08-09",
   "hour": 20,
   "category": "Nefes",
-  "title": "Akşam koherent nefes",
-  "duration": 15,
-  "detail": "• 15 dk boyunca 5 sn al / 5 sn ver. Nefes rahat, sessiz ve burundan olsun. Hava açlığı oluşursa süreyi 10 dk’ya indir."
+  "title": "Akşam 4–6 nefesi",
+  "duration": 10,
+  "detail": "• 10 dk boyunca 4 sn al / 6 sn ver. Veriş uzun fakat zorlamasız olsun."
  },
  {
   "date": "2026-08-09",
   "hour": 21,
   "category": "Hareket",
-  "title": "Rahatlatıcı mobilite",
-  "duration": 10,
-  "detail": "• Bel, kalça ve göğüs kafesine yönelik nazik hareketler yap. Keskin ağrıya girme, nefesi tutma."
+  "title": "Hafif kuvvet / mobilite",
+  "duration": 20,
+  "detail": "• Ağrı oluşturmayan hafif program: sandalyeye otur-kalk, duvar şınavı, direnç bandı çekişi ve nazik esneme. Nefesi tutma. Şikâyet artarsa yalnızca 10 dk yürüyüş yap."
  },
  {
   "date": "2026-08-09",
@@ -1539,9 +1643,9 @@
   "date": "2026-08-10",
   "hour": 21,
   "category": "Hareket",
-  "title": "Hafif kuvvet / mobilite",
-  "duration": 20,
-  "detail": "• Ağrı oluşturmayan hafif program: sandalyeye otur-kalk, duvar şınavı, direnç bandı çekişi ve nazik esneme. Nefesi tutma. Şikâyet artarsa yalnızca 10 dk yürüyüş yap."
+  "title": "Rahatlatıcı mobilite",
+  "duration": 10,
+  "detail": "• Bel, kalça ve göğüs kafesine yönelik nazik hareketler yap. Keskin ağrıya girme, nefesi tutma."
  },
  {
   "date": "2026-08-10",
@@ -1643,9 +1747,9 @@
   "date": "2026-08-11",
   "hour": 21,
   "category": "Hareket",
-  "title": "Rahatlatıcı mobilite",
-  "duration": 10,
-  "detail": "• Bel, kalça ve göğüs kafesine yönelik nazik hareketler yap. Keskin ağrıya girme, nefesi tutma."
+  "title": "Hafif kuvvet / mobilite",
+  "duration": 20,
+  "detail": "• Ağrı oluşturmayan hafif program: sandalyeye otur-kalk, duvar şınavı, direnç bandı çekişi ve nazik esneme. Nefesi tutma. Şikâyet artarsa yalnızca 10 dk yürüyüş yap."
  },
  {
   "date": "2026-08-11",
@@ -1747,9 +1851,9 @@
   "date": "2026-08-12",
   "hour": 21,
   "category": "Hareket",
-  "title": "Hafif kuvvet / mobilite",
-  "duration": 20,
-  "detail": "• Ağrı oluşturmayan hafif program: sandalyeye otur-kalk, duvar şınavı, direnç bandı çekişi ve nazik esneme. Nefesi tutma. Şikâyet artarsa yalnızca 10 dk yürüyüş yap."
+  "title": "Rahatlatıcı mobilite",
+  "duration": 10,
+  "detail": "• Bel, kalça ve göğüs kafesine yönelik nazik hareketler yap. Keskin ağrıya girme, nefesi tutma."
  },
  {
   "date": "2026-08-12",
@@ -1851,9 +1955,9 @@
   "date": "2026-08-13",
   "hour": 21,
   "category": "Hareket",
-  "title": "Rahatlatıcı mobilite",
-  "duration": 10,
-  "detail": "• Bel, kalça ve göğüs kafesine yönelik nazik hareketler yap. Keskin ağrıya girme, nefesi tutma."
+  "title": "Hafif kuvvet / mobilite",
+  "duration": 20,
+  "detail": "• Ağrı oluşturmayan hafif program: sandalyeye otur-kalk, duvar şınavı, direnç bandı çekişi ve nazik esneme. Nefesi tutma. Şikâyet artarsa yalnızca 10 dk yürüyüş yap."
  },
  {
   "date": "2026-08-13",
@@ -1955,9 +2059,9 @@
   "date": "2026-08-14",
   "hour": 21,
   "category": "Hareket",
-  "title": "Hafif kuvvet / mobilite",
-  "duration": 20,
-  "detail": "• Ağrı oluşturmayan hafif program: sandalyeye otur-kalk, duvar şınavı, direnç bandı çekişi ve nazik esneme. Nefesi tutma. Şikâyet artarsa yalnızca 10 dk yürüyüş yap."
+  "title": "Rahatlatıcı mobilite",
+  "duration": 10,
+  "detail": "• Bel, kalça ve göğüs kafesine yönelik nazik hareketler yap. Keskin ağrıya girme, nefesi tutma."
  },
  {
   "date": "2026-08-14",
@@ -2083,116 +2187,12 @@
   "date": "2026-08-16",
   "hour": 7,
   "category": "Nefes",
-  "title": "Sabah diyafram + koherent nefes",
-  "duration": 20,
-  "detail": "• 10 dk 4 sn al / 6 sn ver; ardından 10 dk 5 sn al / 5 sn ver. Nefes sessiz, yumuşak ve burundan olsun."
- },
- {
-  "date": "2026-08-16",
-  "hour": 8,
-  "category": "Beslenme",
-  "title": "Kahvaltıyı sakin yeme",
-  "duration": 20,
-  "detail": "• Telefon ve televizyon olmadan ye. Küçük lokmalar al, her lokmayı yaklaşık 15–20 kez çiğne. Yemek boyunca omuz, çene ve karnı gevşek tut."
- },
- {
-  "date": "2026-08-16",
-  "hour": 10,
-  "category": "Farkındalık",
-  "title": "30 saniyelik beden kontrolü",
-  "duration": 1,
-  "detail": "• Çene sıkılı mı, omuzlar kalkık mı, karın içeri çekilmiş mi? Üçünü de yumuşat. Nefesi değiştirmeden devam et."
- },
- {
-  "date": "2026-08-16",
-  "hour": 12,
-  "category": "Beslenme",
-  "title": "Öğle yemeğini sakin yeme",
-  "duration": 25,
-  "detail": "• Hızlı yeme, gazlı içecek, pipet ve sakız kullanma. Aşırı büyük porsiyon yerine orta porsiyon tercih et."
- },
- {
-  "date": "2026-08-16",
-  "hour": 13,
-  "category": "Hareket",
-  "title": "Öğle sonrası hafif yürüyüş",
-  "duration": 10,
-  "detail": "• Yemekten sonra 10 dk rahat tempoda yürü. Konuşabilecek tempoda kal; mümkünse burundan nefes al."
- },
- {
-  "date": "2026-08-16",
-  "hour": 15,
-  "category": "Farkındalık",
-  "title": "Beden kontrolü + 1 dk yavaş nefes",
-  "duration": 2,
-  "detail": "• Çene, omuz ve karnı gevşet; ardından 1 dk boyunca yaklaşık 4 sn al / 6 sn ver."
- },
- {
-  "date": "2026-08-16",
-  "hour": 16,
-  "category": "Farkındalık",
-  "title": "30 saniyelik beden kontrolü",
-  "duration": 1,
-  "detail": "• Karın kasılıysa bilinçli şekilde bırak. Nefesi büyütmeye çalışma."
- },
- {
-  "date": "2026-08-16",
-  "hour": 18,
-  "category": "Beslenme",
-  "title": "Akşam yemeğini sakin yeme",
-  "duration": 25,
-  "detail": "• Orta porsiyon ye; çok yağlı, çok baharatlı ve kişisel olarak tetiklediğini bildiğin yiyecekleri sınırlı tut."
- },
- {
-  "date": "2026-08-16",
-  "hour": 19,
-  "category": "Hareket",
-  "title": "Akşam yemeği sonrası yürüyüş",
-  "duration": 10,
-  "detail": "• Yemekten sonra en az 20 dk uzanma. 10 dk hafif yürüyüş yap."
- },
- {
-  "date": "2026-08-16",
-  "hour": 20,
-  "category": "Nefes",
-  "title": "Akşam 4–6 nefesi",
-  "duration": 10,
-  "detail": "• 10 dk boyunca 4 sn al / 6 sn ver. Veriş uzun fakat zorlamasız olsun."
- },
- {
-  "date": "2026-08-16",
-  "hour": 21,
-  "category": "Hareket",
-  "title": "Rahatlatıcı mobilite",
-  "duration": 10,
-  "detail": "• Bel, kalça ve göğüs kafesine yönelik nazik hareketler yap. Keskin ağrıya girme, nefesi tutma."
- },
- {
-  "date": "2026-08-16",
-  "hour": 22,
-  "category": "Gevşeme",
-  "title": "Karın gevşetme + günlük kayıt",
-  "duration": 7,
-  "detail": "• 5 dk karın kaslarını tamamen serbest bırak; ardından 2 dk günlük belirti puanlarını kaydet. Karnı zorla dışarı itme."
- },
- {
-  "date": "2026-08-16",
-  "hour": 23,
-  "category": "Uyku",
-  "title": "Uykuya geçiş",
-  "duration": 0,
-  "detail": "• Hedef: benzer saatte uyumak. Son 30 dk parlak ekranı azalt. Gece nefes egzersizini zorlayarak uzatma."
- },
- {
-  "date": "2026-08-17",
-  "hour": 7,
-  "category": "Nefes",
   "title": "Sabah koherent nefes",
   "duration": 15,
   "detail": "• 15 dk boyunca 5 sn al / 5 sn ver. Karnı şişirmeye çalışma; alt kaburga ve karında doğal, küçük hareket yeterli."
  },
  {
-  "date": "2026-08-17",
+  "date": "2026-08-16",
   "hour": 8,
   "category": "Beslenme",
   "title": "Kahvaltıyı sakin yeme",
@@ -2200,7 +2200,7 @@
   "detail": "• Telefon ve televizyon olmadan ye. Küçük lokmalar al, her lokmayı yaklaşık 15–20 kez çiğne. Yemek boyunca omuz, çene ve karnı gevşek tut."
  },
  {
-  "date": "2026-08-17",
+  "date": "2026-08-16",
   "hour": 10,
   "category": "Farkındalık",
   "title": "30 saniyelik beden kontrolü",
@@ -2208,7 +2208,7 @@
   "detail": "• Çene sıkılı mı, omuzlar kalkık mı, karın içeri çekilmiş mi? Üçünü de yumuşat. Nefesi değiştirmeden devam et."
  },
  {
-  "date": "2026-08-17",
+  "date": "2026-08-16",
   "hour": 12,
   "category": "Beslenme",
   "title": "Öğle yemeğini sakin yeme",
@@ -2216,7 +2216,7 @@
   "detail": "• Hızlı yeme, gazlı içecek, pipet ve sakız kullanma. Aşırı büyük porsiyon yerine orta porsiyon tercih et."
  },
  {
-  "date": "2026-08-17",
+  "date": "2026-08-16",
   "hour": 13,
   "category": "Hareket",
   "title": "Öğle sonrası hafif yürüyüş",
@@ -2224,7 +2224,7 @@
   "detail": "• Yemekten sonra 10 dk rahat tempoda yürü. Konuşabilecek tempoda kal; mümkünse burundan nefes al."
  },
  {
-  "date": "2026-08-17",
+  "date": "2026-08-16",
   "hour": 15,
   "category": "Vagus",
   "title": "Mırıldanma (humming)",
@@ -2232,7 +2232,7 @@
   "detail": "• Burundan rahat nefes al; verirken yumuşak “mmmm” sesi çıkar. Boğazı zorlamadan 5 dk uygula."
  },
  {
-  "date": "2026-08-17",
+  "date": "2026-08-16",
   "hour": 16,
   "category": "Farkındalık",
   "title": "30 saniyelik beden kontrolü",
@@ -2240,7 +2240,7 @@
   "detail": "• Karın kasılıysa bilinçli şekilde bırak. Nefesi büyütmeye çalışma."
  },
  {
-  "date": "2026-08-17",
+  "date": "2026-08-16",
   "hour": 18,
   "category": "Beslenme",
   "title": "Akşam yemeğini sakin yeme",
@@ -2248,7 +2248,7 @@
   "detail": "• Orta porsiyon ye; çok yağlı, çok baharatlı ve kişisel olarak tetiklediğini bildiğin yiyecekleri sınırlı tut."
  },
  {
-  "date": "2026-08-17",
+  "date": "2026-08-16",
   "hour": 19,
   "category": "Hareket",
   "title": "Akşam yemeği sonrası yürüyüş",
@@ -2256,7 +2256,7 @@
   "detail": "• Yemekten sonra en az 20 dk uzanma. 10 dk hafif yürüyüş yap."
  },
  {
-  "date": "2026-08-17",
+  "date": "2026-08-16",
   "hour": 20,
   "category": "Nefes",
   "title": "Akşam diyafram nefesi",
@@ -2264,7 +2264,7 @@
   "detail": "• Sırtüstü veya rahat oturuşta 10 dk. Alt kaburgaların ve karnın doğal genişlemesine izin ver; göğüs hareketini zorla bastırma."
  },
  {
-  "date": "2026-08-17",
+  "date": "2026-08-16",
   "hour": 21,
   "category": "Hareket",
   "title": "Hafif kuvvet / mobilite",
@@ -2272,6 +2272,110 @@
   "detail": "• Ağrı oluşturmayan hafif program: sandalyeye otur-kalk, duvar şınavı, direnç bandı çekişi ve nazik esneme. Nefesi tutma. Şikâyet artarsa yalnızca 10 dk yürüyüş yap."
  },
  {
+  "date": "2026-08-16",
+  "hour": 22,
+  "category": "Gevşeme",
+  "title": "Karın gevşetme + günlük kayıt",
+  "duration": 7,
+  "detail": "• 5 dk karın kaslarını tamamen serbest bırak; ardından 2 dk günlük belirti puanlarını kaydet. Karnı zorla dışarı itme."
+ },
+ {
+  "date": "2026-08-16",
+  "hour": 23,
+  "category": "Uyku",
+  "title": "Uykuya geçiş",
+  "duration": 0,
+  "detail": "• Hedef: benzer saatte uyumak. Son 30 dk parlak ekranı azalt. Gece nefes egzersizini zorlayarak uzatma."
+ },
+ {
+  "date": "2026-08-17",
+  "hour": 7,
+  "category": "Nefes",
+  "title": "Sabah koherent nefes",
+  "duration": 15,
+  "detail": "• 15 dk boyunca 5 sn al / 5 sn ver. Karnı şişirmeye çalışma; alt kaburga ve karında doğal, küçük hareket yeterli."
+ },
+ {
+  "date": "2026-08-17",
+  "hour": 8,
+  "category": "Beslenme",
+  "title": "Kahvaltıyı sakin yeme",
+  "duration": 20,
+  "detail": "• Telefon ve televizyon olmadan ye. Küçük lokmalar al, her lokmayı yaklaşık 15–20 kez çiğne. Yemek boyunca omuz, çene ve karnı gevşek tut."
+ },
+ {
+  "date": "2026-08-17",
+  "hour": 10,
+  "category": "Farkındalık",
+  "title": "30 saniyelik beden kontrolü",
+  "duration": 1,
+  "detail": "• Çene sıkılı mı, omuzlar kalkık mı, karın içeri çekilmiş mi? Üçünü de yumuşat. Nefesi değiştirmeden devam et."
+ },
+ {
+  "date": "2026-08-17",
+  "hour": 12,
+  "category": "Beslenme",
+  "title": "Öğle yemeğini sakin yeme",
+  "duration": 25,
+  "detail": "• Hızlı yeme, gazlı içecek, pipet ve sakız kullanma. Aşırı büyük porsiyon yerine orta porsiyon tercih et."
+ },
+ {
+  "date": "2026-08-17",
+  "hour": 13,
+  "category": "Hareket",
+  "title": "Öğle sonrası hafif yürüyüş",
+  "duration": 10,
+  "detail": "• Yemekten sonra 10 dk rahat tempoda yürü. Konuşabilecek tempoda kal; mümkünse burundan nefes al."
+ },
+ {
+  "date": "2026-08-17",
+  "hour": 15,
+  "category": "Vagus",
+  "title": "Mırıldanma (humming)",
+  "duration": 5,
+  "detail": "• Burundan rahat nefes al; verirken yumuşak “mmmm” sesi çıkar. Boğazı zorlamadan 5 dk uygula."
+ },
+ {
+  "date": "2026-08-17",
+  "hour": 16,
+  "category": "Farkındalık",
+  "title": "30 saniyelik beden kontrolü",
+  "duration": 1,
+  "detail": "• Karın kasılıysa bilinçli şekilde bırak. Nefesi büyütmeye çalışma."
+ },
+ {
+  "date": "2026-08-17",
+  "hour": 18,
+  "category": "Beslenme",
+  "title": "Akşam yemeğini sakin yeme",
+  "duration": 25,
+  "detail": "• Orta porsiyon ye; çok yağlı, çok baharatlı ve kişisel olarak tetiklediğini bildiğin yiyecekleri sınırlı tut."
+ },
+ {
+  "date": "2026-08-17",
+  "hour": 19,
+  "category": "Hareket",
+  "title": "Akşam yemeği sonrası yürüyüş",
+  "duration": 10,
+  "detail": "• Yemekten sonra en az 20 dk uzanma. 10 dk hafif yürüyüş yap."
+ },
+ {
+  "date": "2026-08-17",
+  "hour": 20,
+  "category": "Nefes",
+  "title": "Akşam diyafram nefesi",
+  "duration": 10,
+  "detail": "• Sırtüstü veya rahat oturuşta 10 dk. Alt kaburgaların ve karnın doğal genişlemesine izin ver; göğüs hareketini zorla bastırma."
+ },
+ {
+  "date": "2026-08-17",
+  "hour": 21,
+  "category": "Hareket",
+  "title": "Rahatlatıcı mobilite",
+  "duration": 10,
+  "detail": "• Bel, kalça ve göğüs kafesine yönelik nazik hareketler yap. Keskin ağrıya girme, nefesi tutma."
+ },
+ {
   "date": "2026-08-17",
   "hour": 22,
   "category": "Gevşeme",
@@ -2371,9 +2475,9 @@
   "date": "2026-08-18",
   "hour": 21,
   "category": "Hareket",
-  "title": "Rahatlatıcı mobilite",
-  "duration": 10,
-  "detail": "• Bel, kalça ve göğüs kafesine yönelik nazik hareketler yap. Keskin ağrıya girme, nefesi tutma."
+  "title": "Hafif kuvvet / mobilite",
+  "duration": 20,
+  "detail": "• Ağrı oluşturmayan hafif program: sandalyeye otur-kalk, duvar şınavı, direnç bandı çekişi ve nazik esneme. Nefesi tutma. Şikâyet artarsa yalnızca 10 dk yürüyüş yap."
  },
  {
   "date": "2026-08-18",
@@ -2475,9 +2579,9 @@
   "date": "2026-08-19",
   "hour": 21,
   "category": "Hareket",
-  "title": "Hafif kuvvet / mobilite",
-  "duration": 20,
-  "detail": "• Ağrı oluşturmayan hafif program: sandalyeye otur-kalk, duvar şınavı, direnç bandı çekişi ve nazik esneme. Nefesi tutma. Şikâyet artarsa yalnızca 10 dk yürüyüş yap."
+  "title": "Rahatlatıcı mobilite",
+  "duration": 10,
+  "detail": "• Bel, kalça ve göğüs kafesine yönelik nazik hareketler yap. Keskin ağrıya girme, nefesi tutma."
  },
  {
   "date": "2026-08-19",
@@ -2579,115 +2683,115 @@
   "date": "2026-08-20",
   "hour": 21,
   "category": "Hareket",
-  "title": "Rahatlatıcı mobilite",
-  "duration": 10,
-  "detail": "• Bel, kalça ve göğüs kafesine yönelik nazik hareketler yap. Keskin ağrıya girme, nefesi tutma."
- },
- {
-  "date": "2026-08-20",
-  "hour": 22,
-  "category": "Gevşeme",
-  "title": "Karın gevşetme + günlük kayıt",
-  "duration": 7,
-  "detail": "• 5 dk karın kaslarını tamamen serbest bırak; ardından 2 dk günlük belirti puanlarını kaydet. Karnı zorla dışarı itme."
- },
- {
-  "date": "2026-08-20",
-  "hour": 23,
-  "category": "Uyku",
-  "title": "Uykuya geçiş",
-  "duration": 0,
-  "detail": "• Hedef: benzer saatte uyumak. Son 30 dk parlak ekranı azalt. Gece nefes egzersizini zorlayarak uzatma."
- },
- {
-  "date": "2026-08-21",
-  "hour": 7,
-  "category": "Nefes",
-  "title": "Sabah koherent nefes",
-  "duration": 15,
-  "detail": "• 15 dk boyunca 5 sn al / 5 sn ver. Karnı şişirmeye çalışma; alt kaburga ve karında doğal, küçük hareket yeterli."
- },
- {
-  "date": "2026-08-21",
-  "hour": 8,
-  "category": "Beslenme",
-  "title": "Kahvaltıyı sakin yeme",
-  "duration": 20,
-  "detail": "• Telefon ve televizyon olmadan ye. Küçük lokmalar al, her lokmayı yaklaşık 15–20 kez çiğne. Yemek boyunca omuz, çene ve karnı gevşek tut."
- },
- {
-  "date": "2026-08-21",
-  "hour": 10,
-  "category": "Farkındalık",
-  "title": "30 saniyelik beden kontrolü",
-  "duration": 1,
-  "detail": "• Çene sıkılı mı, omuzlar kalkık mı, karın içeri çekilmiş mi? Üçünü de yumuşat. Nefesi değiştirmeden devam et."
- },
- {
-  "date": "2026-08-21",
-  "hour": 12,
-  "category": "Beslenme",
-  "title": "Öğle yemeğini sakin yeme",
-  "duration": 25,
-  "detail": "• Hızlı yeme, gazlı içecek, pipet ve sakız kullanma. Aşırı büyük porsiyon yerine orta porsiyon tercih et."
- },
- {
-  "date": "2026-08-21",
-  "hour": 13,
-  "category": "Hareket",
-  "title": "Öğle sonrası hafif yürüyüş",
-  "duration": 10,
-  "detail": "• Yemekten sonra 10 dk rahat tempoda yürü. Konuşabilecek tempoda kal; mümkünse burundan nefes al."
- },
- {
-  "date": "2026-08-21",
-  "hour": 15,
-  "category": "Vagus",
-  "title": "Mırıldanma (humming)",
-  "duration": 5,
-  "detail": "• Burundan rahat nefes al; verirken yumuşak “mmmm” sesi çıkar. Boğazı zorlamadan 5 dk uygula."
- },
- {
-  "date": "2026-08-21",
-  "hour": 16,
-  "category": "Farkındalık",
-  "title": "30 saniyelik beden kontrolü",
-  "duration": 1,
-  "detail": "• Karın kasılıysa bilinçli şekilde bırak. Nefesi büyütmeye çalışma."
- },
- {
-  "date": "2026-08-21",
-  "hour": 18,
-  "category": "Beslenme",
-  "title": "Akşam yemeğini sakin yeme",
-  "duration": 25,
-  "detail": "• Orta porsiyon ye; çok yağlı, çok baharatlı ve kişisel olarak tetiklediğini bildiğin yiyecekleri sınırlı tut."
- },
- {
-  "date": "2026-08-21",
-  "hour": 19,
-  "category": "Hareket",
-  "title": "Akşam yemeği sonrası yürüyüş",
-  "duration": 10,
-  "detail": "• Yemekten sonra en az 20 dk uzanma. 10 dk hafif yürüyüş yap."
- },
- {
-  "date": "2026-08-21",
-  "hour": 20,
-  "category": "Nefes",
-  "title": "Akşam diyafram nefesi",
-  "duration": 10,
-  "detail": "• Sırtüstü veya rahat oturuşta 10 dk. Alt kaburgaların ve karnın doğal genişlemesine izin ver; göğüs hareketini zorla bastırma."
- },
- {
-  "date": "2026-08-21",
-  "hour": 21,
-  "category": "Hareket",
   "title": "Hafif kuvvet / mobilite",
   "duration": 20,
   "detail": "• Ağrı oluşturmayan hafif program: sandalyeye otur-kalk, duvar şınavı, direnç bandı çekişi ve nazik esneme. Nefesi tutma. Şikâyet artarsa yalnızca 10 dk yürüyüş yap."
  },
  {
+  "date": "2026-08-20",
+  "hour": 22,
+  "category": "Gevşeme",
+  "title": "Karın gevşetme + günlük kayıt",
+  "duration": 7,
+  "detail": "• 5 dk karın kaslarını tamamen serbest bırak; ardından 2 dk günlük belirti puanlarını kaydet. Karnı zorla dışarı itme."
+ },
+ {
+  "date": "2026-08-20",
+  "hour": 23,
+  "category": "Uyku",
+  "title": "Uykuya geçiş",
+  "duration": 0,
+  "detail": "• Hedef: benzer saatte uyumak. Son 30 dk parlak ekranı azalt. Gece nefes egzersizini zorlayarak uzatma."
+ },
+ {
+  "date": "2026-08-21",
+  "hour": 7,
+  "category": "Nefes",
+  "title": "Sabah koherent nefes",
+  "duration": 15,
+  "detail": "• 15 dk boyunca 5 sn al / 5 sn ver. Karnı şişirmeye çalışma; alt kaburga ve karında doğal, küçük hareket yeterli."
+ },
+ {
+  "date": "2026-08-21",
+  "hour": 8,
+  "category": "Beslenme",
+  "title": "Kahvaltıyı sakin yeme",
+  "duration": 20,
+  "detail": "• Telefon ve televizyon olmadan ye. Küçük lokmalar al, her lokmayı yaklaşık 15–20 kez çiğne. Yemek boyunca omuz, çene ve karnı gevşek tut."
+ },
+ {
+  "date": "2026-08-21",
+  "hour": 10,
+  "category": "Farkındalık",
+  "title": "30 saniyelik beden kontrolü",
+  "duration": 1,
+  "detail": "• Çene sıkılı mı, omuzlar kalkık mı, karın içeri çekilmiş mi? Üçünü de yumuşat. Nefesi değiştirmeden devam et."
+ },
+ {
+  "date": "2026-08-21",
+  "hour": 12,
+  "category": "Beslenme",
+  "title": "Öğle yemeğini sakin yeme",
+  "duration": 25,
+  "detail": "• Hızlı yeme, gazlı içecek, pipet ve sakız kullanma. Aşırı büyük porsiyon yerine orta porsiyon tercih et."
+ },
+ {
+  "date": "2026-08-21",
+  "hour": 13,
+  "category": "Hareket",
+  "title": "Öğle sonrası hafif yürüyüş",
+  "duration": 10,
+  "detail": "• Yemekten sonra 10 dk rahat tempoda yürü. Konuşabilecek tempoda kal; mümkünse burundan nefes al."
+ },
+ {
+  "date": "2026-08-21",
+  "hour": 15,
+  "category": "Vagus",
+  "title": "Mırıldanma (humming)",
+  "duration": 5,
+  "detail": "• Burundan rahat nefes al; verirken yumuşak “mmmm” sesi çıkar. Boğazı zorlamadan 5 dk uygula."
+ },
+ {
+  "date": "2026-08-21",
+  "hour": 16,
+  "category": "Farkındalık",
+  "title": "30 saniyelik beden kontrolü",
+  "duration": 1,
+  "detail": "• Karın kasılıysa bilinçli şekilde bırak. Nefesi büyütmeye çalışma."
+ },
+ {
+  "date": "2026-08-21",
+  "hour": 18,
+  "category": "Beslenme",
+  "title": "Akşam yemeğini sakin yeme",
+  "duration": 25,
+  "detail": "• Orta porsiyon ye; çok yağlı, çok baharatlı ve kişisel olarak tetiklediğini bildiğin yiyecekleri sınırlı tut."
+ },
+ {
+  "date": "2026-08-21",
+  "hour": 19,
+  "category": "Hareket",
+  "title": "Akşam yemeği sonrası yürüyüş",
+  "duration": 10,
+  "detail": "• Yemekten sonra en az 20 dk uzanma. 10 dk hafif yürüyüş yap."
+ },
+ {
+  "date": "2026-08-21",
+  "hour": 20,
+  "category": "Nefes",
+  "title": "Akşam diyafram nefesi",
+  "duration": 10,
+  "detail": "• Sırtüstü veya rahat oturuşta 10 dk. Alt kaburgaların ve karnın doğal genişlemesine izin ver; göğüs hareketini zorla bastırma."
+ },
+ {
+  "date": "2026-08-21",
+  "hour": 21,
+  "category": "Hareket",
+  "title": "Rahatlatıcı mobilite",
+  "duration": 10,
+  "detail": "• Bel, kalça ve göğüs kafesine yönelik nazik hareketler yap. Keskin ağrıya girme, nefesi tutma."
+ },
+ {
   "date": "2026-08-21",
   "hour": 22,
   "category": "Gevşeme",
@@ -2801,110 +2905,6 @@
  },
  {
   "date": "2026-08-22",
-  "hour": 23,
-  "category": "Uyku",
-  "title": "Uykuya geçiş",
-  "duration": 0,
-  "detail": "• Hedef: benzer saatte uyumak. Son 30 dk parlak ekranı azalt. Gece nefes egzersizini zorlayarak uzatma."
- },
- {
-  "date": "2026-08-23",
-  "hour": 7,
-  "category": "Nefes",
-  "title": "Sabah koherent nefes",
-  "duration": 15,
-  "detail": "• 15 dk boyunca 5 sn al / 5 sn ver. Karnı şişirmeye çalışma; alt kaburga ve karında doğal, küçük hareket yeterli."
- },
- {
-  "date": "2026-08-23",
-  "hour": 8,
-  "category": "Beslenme",
-  "title": "Kahvaltıyı sakin yeme",
-  "duration": 20,
-  "detail": "• Telefon ve televizyon olmadan ye. Küçük lokmalar al, her lokmayı yaklaşık 15–20 kez çiğne. Yemek boyunca omuz, çene ve karnı gevşek tut."
- },
- {
-  "date": "2026-08-23",
-  "hour": 10,
-  "category": "Farkındalık",
-  "title": "30 saniyelik beden kontrolü",
-  "duration": 1,
-  "detail": "• Çene sıkılı mı, omuzlar kalkık mı, karın içeri çekilmiş mi? Üçünü de yumuşat. Nefesi değiştirmeden devam et."
- },
- {
-  "date": "2026-08-23",
-  "hour": 12,
-  "category": "Beslenme",
-  "title": "Öğle yemeğini sakin yeme",
-  "duration": 25,
-  "detail": "• Hızlı yeme, gazlı içecek, pipet ve sakız kullanma. Aşırı büyük porsiyon yerine orta porsiyon tercih et."
- },
- {
-  "date": "2026-08-23",
-  "hour": 13,
-  "category": "Hareket",
-  "title": "Öğle sonrası hafif yürüyüş",
-  "duration": 10,
-  "detail": "• Yemekten sonra 10 dk rahat tempoda yürü. Konuşabilecek tempoda kal; mümkünse burundan nefes al."
- },
- {
-  "date": "2026-08-23",
-  "hour": 15,
-  "category": "Vagus",
-  "title": "Mırıldanma (humming)",
-  "duration": 5,
-  "detail": "• Burundan rahat nefes al; verirken yumuşak “mmmm” sesi çıkar. Boğazı zorlamadan 5 dk uygula."
- },
- {
-  "date": "2026-08-23",
-  "hour": 16,
-  "category": "Farkındalık",
-  "title": "30 saniyelik beden kontrolü",
-  "duration": 1,
-  "detail": "• Karın kasılıysa bilinçli şekilde bırak. Nefesi büyütmeye çalışma."
- },
- {
-  "date": "2026-08-23",
-  "hour": 18,
-  "category": "Beslenme",
-  "title": "Akşam yemeğini sakin yeme",
-  "duration": 25,
-  "detail": "• Orta porsiyon ye; çok yağlı, çok baharatlı ve kişisel olarak tetiklediğini bildiğin yiyecekleri sınırlı tut."
- },
- {
-  "date": "2026-08-23",
-  "hour": 19,
-  "category": "Hareket",
-  "title": "Akşam yemeği sonrası yürüyüş",
-  "duration": 10,
-  "detail": "• Yemekten sonra en az 20 dk uzanma. 10 dk hafif yürüyüş yap."
- },
- {
-  "date": "2026-08-23",
-  "hour": 20,
-  "category": "Nefes",
-  "title": "Akşam diyafram nefesi",
-  "duration": 10,
-  "detail": "• Sırtüstü veya rahat oturuşta 10 dk. Alt kaburgaların ve karnın doğal genişlemesine izin ver; göğüs hareketini zorla bastırma."
- },
- {
-  "date": "2026-08-23",
-  "hour": 21,
-  "category": "Hareket",
-  "title": "Rahatlatıcı mobilite",
-  "duration": 10,
-  "detail": "• Bel, kalça ve göğüs kafesine yönelik nazik hareketler yap. Keskin ağrıya girme, nefesi tutma."
- },
- {
-  "date": "2026-08-23",
-  "hour": 22,
-  "category": "Gevşeme",
-  "title": "Karın gevşetme + günlük kayıt",
-  "duration": 7,
-  "detail": "• 5 dk karın kaslarını tamamen serbest bırak; ardından 2 dk günlük belirti puanlarını kaydet. Karnı zorla dışarı itme."
- },
- {
-  "date": "2026-08-23",
   "hour": 23,
   "category": "Uyku",
   "title": "Uykuya geçiş",
